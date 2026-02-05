@@ -9,6 +9,8 @@
     - flashlightd
     - libdroid-hal-lights
     - gstreamer1.0-gl
+    - wl-clipboard
+    - wlr-randr
 
 # Xiaomi vayu image
 xiaomi_vayu:
