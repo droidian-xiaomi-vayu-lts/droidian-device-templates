@@ -1,0 +1,18 @@
+# Xiaomi vayu packages
+.xiaomi_vayu_packages:
+  packages: &xiaomi_vayu_packages
+    - adaptation-droidian-xiaomi-vayu-lts-api30
+    - adaptation-droidian-xiaomi-vayu-lts-api30-configs
+    - linux-image-halium11-l4v3nx-xiaomi-vayu
+    - linux-bootimage-halium11-l4v3nx-xiaomi-vayu
+    - linux-headers-halium11-l4v3nx-xiaomi-vayu
+
+# Xiaomi vayu image
+xiaomi_vayu:
+  type: image
+  arch: arm64
+  edition: phosh
+  variant: phone
+  apilevel: 30
+
+  packages: *xiaomi_vayu_packages
