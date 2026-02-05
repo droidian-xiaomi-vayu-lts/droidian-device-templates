@@ -22,3 +22,6 @@ xiaomi_vayu:
   droidian_vg_name: droidian
 
   packages: *xiaomi_vayu_packages
+  device_apt_pkgs: "
+    apt-config-droidian-vayu-lts-current
+    apt-keyrings-droidian-vayu-lts"
