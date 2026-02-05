@@ -19,5 +19,6 @@ xiaomi_vayu:
   edition: phosh
   variant: phone
   apilevel: 30
+  droidian_vg_name: droidian
 
   packages: *xiaomi_vayu_packages
