@@ -1,0 +1,4 @@
+## Adding a=component breaks pin priority and defaults to 500
+Package: *
+Pin: release o=droidian-xiaomi-vayu-lts, n=current
+Pin-Priority: 1060

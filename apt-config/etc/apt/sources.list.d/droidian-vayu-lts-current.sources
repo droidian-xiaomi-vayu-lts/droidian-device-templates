@@ -1,0 +1,6 @@
+Architectures: arm64,all
+Components: main
+Suites: current
+Uris:  https://droidian-xiaomi-vayu-lts.github.io/apt-repo-vayu-lts
+Types: deb
+Signed-By: /etc/apt/trusted.gpg.d/apt-droidian-vayu-lts.gpg
