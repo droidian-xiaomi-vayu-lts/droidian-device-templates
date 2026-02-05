@@ -21,6 +21,12 @@ xiaomi_vayu:
   apilevel: 30
   droidian_vg_name: droidian
 
+  extra_artifacts: yes
+  droidian_rootfs_lv_list: "
+    droidian-rootfs
+    droidian-rootfs-prod
+    droidian-rootfs-test"
+
   packages: *xiaomi_vayu_packages
   device_apt_pkgs: "
     apt-config-droidian-vayu-lts-current
