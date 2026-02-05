@@ -6,6 +6,8 @@
     - linux-image-halium11-l4v3nx-xiaomi-vayu
     - linux-bootimage-halium11-l4v3nx-xiaomi-vayu
     - linux-headers-halium11-l4v3nx-xiaomi-vayu
+    - flashlightd
+    - libdroid-hal-lights
 
 # Xiaomi vayu image
 xiaomi_vayu:
